@@ -1,0 +1,211 @@
+2025-04-17 18:02:24,775 - leadfinder - INFO - Database initialized at /Users/cyruskakkar/.leadfinder/leadfinder.db
+2025-04-17 18:04:21,518 - leadfinder - INFO - Database initialized at /Users/cyruskakkar/.leadfinder/leadfinder.db
+2025-04-17 18:04:21,520 - WDM - INFO - ====== WebDriver manager ======
+2025-04-17 18:04:27,266 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 18:04:27,507 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 18:04:27,571 - WDM - INFO - There is no [mac64] chromedriver "134.0.6998.165" for browser google-chrome "134.0.6998" in cache
+2025-04-17 18:04:27,583 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 18:04:27,830 - WDM - INFO - WebDriver version 134.0.6998.165 selected
+2025-04-17 18:04:27,832 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.165/mac-arm64/chromedriver-mac-arm64.zip
+2025-04-17 18:04:27,832 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.165/mac-arm64/chromedriver-mac-arm64.zip
+2025-04-17 18:04:28,094 - WDM - INFO - Driver downloading response is 200
+2025-04-17 18:04:28,485 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 18:04:28,610 - WDM - INFO - Driver has been saved in cache [/Users/cyruskakkar/.wdm/drivers/chromedriver/mac64/134.0.6998.165]
+2025-04-17 18:04:29,620 - leadfinder - INFO - Searching YellowPages: https://www.yellowpages.com/office-buildings/dallas-tx
+2025-04-17 18:04:55,972 - WDM - INFO - ====== WebDriver manager ======
+2025-04-17 18:04:56,146 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 18:04:56,262 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 18:04:56,327 - WDM - INFO - Driver [/Users/cyruskakkar/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
+2025-04-17 18:04:56,942 - leadfinder - INFO - Searching Google Maps: https://www.google.com/maps/search/commercial+buildings+in+Dallas,+TX
+2025-04-17 18:05:01,500 - leadfinder - ERROR - Error scraping Google Maps: Message: javascript error: Cannot read properties of null (reading 'scrollHeight')
+  (Session info: chrome=134.0.6998.118)
+Stacktrace:
+0   chromedriver                        0x00000001005e36c8 cxxbridge1$str$ptr + 2791212
+1   chromedriver                        0x00000001005dbc9c cxxbridge1$str$ptr + 2759936
+2   chromedriver                        0x000000010012de30 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000100133c58 cxxbridge1$string$len + 117032
+4   chromedriver                        0x0000000100135f80 cxxbridge1$string$len + 126032
+5   chromedriver                        0x00000001001b73c4 cxxbridge1$string$len + 655508
+6   chromedriver                        0x00000001001b65f8 cxxbridge1$string$len + 651976
+7   chromedriver                        0x00000001001692fc cxxbridge1$string$len + 335820
+8   chromedriver                        0x00000001005a86c4 cxxbridge1$str$ptr + 2549544
+9   chromedriver                        0x00000001005ab988 cxxbridge1$str$ptr + 2562540
+10  chromedriver                        0x000000010058871c cxxbridge1$str$ptr + 2418560
+11  chromedriver                        0x00000001005ac1e8 cxxbridge1$str$ptr + 2564684
+12  chromedriver                        0x0000000100579750 cxxbridge1$str$ptr + 2357172
+13  chromedriver                        0x00000001005cbf58 cxxbridge1$str$ptr + 2695100
+14  chromedriver                        0x00000001005cc0e0 cxxbridge1$str$ptr + 2695492
+15  chromedriver                        0x00000001005db910 cxxbridge1$str$ptr + 2759028
+16  libsystem_pthread.dylib             0x0000000199361c0c _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019935cb80 thread_start + 8
+
+2025-04-17 18:25:32,842 - leadfinder - INFO - Database initialized at /Users/cyruskakkar/.leadfinder/leadfinder.db
+2025-04-17 18:25:32,843 - WDM - INFO - ====== WebDriver manager ======
+2025-04-17 18:25:33,046 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 18:25:33,107 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 18:25:33,171 - WDM - INFO - Driver [/Users/cyruskakkar/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
+2025-04-17 18:25:34,262 - leadfinder - INFO - Searching YellowPages: https://www.yellowpages.com/office-buildings/dallas-tx
+2025-04-17 18:25:59,460 - WDM - INFO - ====== WebDriver manager ======
+2025-04-17 18:25:59,615 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 18:25:59,676 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 18:25:59,739 - WDM - INFO - Driver [/Users/cyruskakkar/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
+2025-04-17 18:26:00,327 - leadfinder - INFO - Searching Google Maps: https://www.google.com/maps/search/commercial+buildings+in+Dallas,+TX
+2025-04-17 18:26:04,677 - leadfinder - ERROR - Error scraping Google Maps: Message: javascript error: Cannot read properties of null (reading 'scrollHeight')
+  (Session info: chrome=134.0.6998.118)
+Stacktrace:
+0   chromedriver                        0x00000001028876c8 cxxbridge1$str$ptr + 2791212
+1   chromedriver                        0x000000010287fc9c cxxbridge1$str$ptr + 2759936
+2   chromedriver                        0x00000001023d1e30 cxxbridge1$string$len + 92928
+3   chromedriver                        0x00000001023d7c58 cxxbridge1$string$len + 117032
+4   chromedriver                        0x00000001023d9f80 cxxbridge1$string$len + 126032
+5   chromedriver                        0x000000010245b3c4 cxxbridge1$string$len + 655508
+6   chromedriver                        0x000000010245a5f8 cxxbridge1$string$len + 651976
+7   chromedriver                        0x000000010240d2fc cxxbridge1$string$len + 335820
+8   chromedriver                        0x000000010284c6c4 cxxbridge1$str$ptr + 2549544
+9   chromedriver                        0x000000010284f988 cxxbridge1$str$ptr + 2562540
+10  chromedriver                        0x000000010282c71c cxxbridge1$str$ptr + 2418560
+11  chromedriver                        0x00000001028501e8 cxxbridge1$str$ptr + 2564684
+12  chromedriver                        0x000000010281d750 cxxbridge1$str$ptr + 2357172
+13  chromedriver                        0x000000010286ff58 cxxbridge1$str$ptr + 2695100
+14  chromedriver                        0x00000001028700e0 cxxbridge1$str$ptr + 2695492
+15  chromedriver                        0x000000010287f910 cxxbridge1$str$ptr + 2759028
+16  libsystem_pthread.dylib             0x0000000199361c0c _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019935cb80 thread_start + 8
+
+2025-04-17 18:26:20,074 - leadfinder - INFO - Database initialized at /Users/cyruskakkar/.leadfinder/leadfinder.db
+2025-04-17 18:26:20,076 - WDM - INFO - ====== WebDriver manager ======
+2025-04-17 18:26:20,227 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 18:26:20,293 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 18:26:20,353 - WDM - INFO - Driver [/Users/cyruskakkar/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
+2025-04-17 18:26:20,875 - leadfinder - INFO - Searching YellowPages: https://www.yellowpages.com/office-buildings/dallas-tx
+2025-04-17 18:26:47,447 - WDM - INFO - ====== WebDriver manager ======
+2025-04-17 18:26:47,597 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 18:26:47,689 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 18:26:47,835 - WDM - INFO - Driver [/Users/cyruskakkar/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
+2025-04-17 18:26:48,452 - leadfinder - INFO - Searching Google Maps: https://www.google.com/maps/search/commercial+buildings+in+Dallas,+TX
+2025-04-17 18:26:53,208 - leadfinder - ERROR - Error scraping Google Maps: Message: javascript error: Cannot read properties of null (reading 'scrollHeight')
+  (Session info: chrome=134.0.6998.118)
+Stacktrace:
+0   chromedriver                        0x000000010093f6c8 cxxbridge1$str$ptr + 2791212
+1   chromedriver                        0x0000000100937c9c cxxbridge1$str$ptr + 2759936
+2   chromedriver                        0x0000000100489e30 cxxbridge1$string$len + 92928
+3   chromedriver                        0x000000010048fc58 cxxbridge1$string$len + 117032
+4   chromedriver                        0x0000000100491f80 cxxbridge1$string$len + 126032
+5   chromedriver                        0x00000001005133c4 cxxbridge1$string$len + 655508
+6   chromedriver                        0x00000001005125f8 cxxbridge1$string$len + 651976
+7   chromedriver                        0x00000001004c52fc cxxbridge1$string$len + 335820
+8   chromedriver                        0x00000001009046c4 cxxbridge1$str$ptr + 2549544
+9   chromedriver                        0x0000000100907988 cxxbridge1$str$ptr + 2562540
+10  chromedriver                        0x00000001008e471c cxxbridge1$str$ptr + 2418560
+11  chromedriver                        0x00000001009081e8 cxxbridge1$str$ptr + 2564684
+12  chromedriver                        0x00000001008d5750 cxxbridge1$str$ptr + 2357172
+13  chromedriver                        0x0000000100927f58 cxxbridge1$str$ptr + 2695100
+14  chromedriver                        0x00000001009280e0 cxxbridge1$str$ptr + 2695492
+15  chromedriver                        0x0000000100937910 cxxbridge1$str$ptr + 2759028
+16  libsystem_pthread.dylib             0x0000000199361c0c _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019935cb80 thread_start + 8
+
+2025-04-17 18:41:44,595 - leadfinder - INFO - Database initialized at /Users/cyruskakkar/.leadfinder/leadfinder.db
+2025-04-17 18:41:44,596 - WDM - INFO - ====== WebDriver manager ======
+2025-04-17 18:41:44,805 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 18:41:44,962 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 18:41:45,024 - WDM - INFO - Driver [/Users/cyruskakkar/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
+2025-04-17 18:41:46,159 - leadfinder - INFO - Searching YellowPages: https://www.yellowpages.com/office-buildings/seattle-wa
+2025-04-17 18:42:13,083 - WDM - INFO - ====== WebDriver manager ======
+2025-04-17 18:42:13,233 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 18:42:13,292 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 18:42:13,344 - WDM - INFO - Driver [/Users/cyruskakkar/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
+2025-04-17 18:42:13,964 - leadfinder - INFO - Searching Google Maps: https://www.google.com/maps/search/commercial+buildings+in+Seattle,+WA
+2025-04-17 18:42:18,326 - leadfinder - ERROR - Error scraping Google Maps: Message: javascript error: Cannot read properties of null (reading 'scrollHeight')
+  (Session info: chrome=134.0.6998.118)
+Stacktrace:
+0   chromedriver                        0x0000000100f876c8 cxxbridge1$str$ptr + 2791212
+1   chromedriver                        0x0000000100f7fc9c cxxbridge1$str$ptr + 2759936
+2   chromedriver                        0x0000000100ad1e30 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000100ad7c58 cxxbridge1$string$len + 117032
+4   chromedriver                        0x0000000100ad9f80 cxxbridge1$string$len + 126032
+5   chromedriver                        0x0000000100b5b3c4 cxxbridge1$string$len + 655508
+6   chromedriver                        0x0000000100b5a5f8 cxxbridge1$string$len + 651976
+7   chromedriver                        0x0000000100b0d2fc cxxbridge1$string$len + 335820
+8   chromedriver                        0x0000000100f4c6c4 cxxbridge1$str$ptr + 2549544
+9   chromedriver                        0x0000000100f4f988 cxxbridge1$str$ptr + 2562540
+10  chromedriver                        0x0000000100f2c71c cxxbridge1$str$ptr + 2418560
+11  chromedriver                        0x0000000100f501e8 cxxbridge1$str$ptr + 2564684
+12  chromedriver                        0x0000000100f1d750 cxxbridge1$str$ptr + 2357172
+13  chromedriver                        0x0000000100f6ff58 cxxbridge1$str$ptr + 2695100
+14  chromedriver                        0x0000000100f700e0 cxxbridge1$str$ptr + 2695492
+15  chromedriver                        0x0000000100f7f910 cxxbridge1$str$ptr + 2759028
+16  libsystem_pthread.dylib             0x0000000199361c0c _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019935cb80 thread_start + 8
+
+2025-04-17 18:44:51,211 - leadfinder - INFO - Database initialized at /Users/cyruskakkar/.leadfinder/leadfinder.db
+2025-04-17 18:45:45,350 - leadfinder - INFO - Database initialized at /Users/cyruskakkar/.leadfinder/leadfinder.db
+2025-04-17 18:45:45,351 - WDM - INFO - ====== WebDriver manager ======
+2025-04-17 18:45:45,565 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 18:45:45,631 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 18:45:45,693 - WDM - INFO - Driver [/Users/cyruskakkar/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
+2025-04-17 18:45:46,859 - leadfinder - INFO - Searching YellowPages: https://www.yellowpages.com/commercial-buildings/seattle-wa
+2025-04-17 18:46:04,475 - leadfinder - WARNING - Timeout waiting for element: search-results
+2025-04-17 18:46:04,486 - leadfinder - INFO - No more business results found
+2025-04-17 18:46:04,577 - WDM - INFO - ====== WebDriver manager ======
+2025-04-17 18:46:04,729 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 18:46:04,785 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 18:46:04,849 - WDM - INFO - Driver [/Users/cyruskakkar/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
+2025-04-17 18:46:05,366 - leadfinder - INFO - Searching Google Maps: https://www.google.com/maps/search/commercial+buildings+in+Seattle,+WA
+2025-04-17 18:46:09,728 - leadfinder - ERROR - Error scraping Google Maps: Message: javascript error: Cannot read properties of null (reading 'scrollHeight')
+  (Session info: chrome=134.0.6998.118)
+Stacktrace:
+0   chromedriver                        0x0000000104d036c8 cxxbridge1$str$ptr + 2791212
+1   chromedriver                        0x0000000104cfbc9c cxxbridge1$str$ptr + 2759936
+2   chromedriver                        0x000000010484de30 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000104853c58 cxxbridge1$string$len + 117032
+4   chromedriver                        0x0000000104855f80 cxxbridge1$string$len + 126032
+5   chromedriver                        0x00000001048d73c4 cxxbridge1$string$len + 655508
+6   chromedriver                        0x00000001048d65f8 cxxbridge1$string$len + 651976
+7   chromedriver                        0x00000001048892fc cxxbridge1$string$len + 335820
+8   chromedriver                        0x0000000104cc86c4 cxxbridge1$str$ptr + 2549544
+9   chromedriver                        0x0000000104ccb988 cxxbridge1$str$ptr + 2562540
+10  chromedriver                        0x0000000104ca871c cxxbridge1$str$ptr + 2418560
+11  chromedriver                        0x0000000104ccc1e8 cxxbridge1$str$ptr + 2564684
+12  chromedriver                        0x0000000104c99750 cxxbridge1$str$ptr + 2357172
+13  chromedriver                        0x0000000104cebf58 cxxbridge1$str$ptr + 2695100
+14  chromedriver                        0x0000000104cec0e0 cxxbridge1$str$ptr + 2695492
+15  chromedriver                        0x0000000104cfb910 cxxbridge1$str$ptr + 2759028
+16  libsystem_pthread.dylib             0x0000000199361c0c _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019935cb80 thread_start + 8
+
+2025-04-17 18:46:38,546 - leadfinder - INFO - Database initialized at /Users/cyruskakkar/.leadfinder/leadfinder.db
+2025-04-17 18:46:38,547 - WDM - INFO - ====== WebDriver manager ======
+2025-04-17 18:46:38,695 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 18:46:38,763 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 18:46:38,823 - WDM - INFO - Driver [/Users/cyruskakkar/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
+2025-04-17 18:46:39,411 - leadfinder - INFO - Searching YellowPages: https://www.yellowpages.com/new-buildings/seattle-wa
+2025-04-17 18:46:56,790 - leadfinder - WARNING - Timeout waiting for element: search-results
+2025-04-17 18:46:56,804 - leadfinder - INFO - No more business results found
+2025-04-17 18:46:56,892 - WDM - INFO - ====== WebDriver manager ======
+2025-04-17 18:46:57,047 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 18:46:57,108 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 18:46:57,165 - WDM - INFO - Driver [/Users/cyruskakkar/.wdm/drivers/chromedriver/mac64/134.0.6998.165/chromedriver-mac-arm64/chromedriver] found in cache
+2025-04-17 18:46:57,659 - leadfinder - INFO - Searching Google Maps: https://www.google.com/maps/search/new+buildings+in+Seattle,+WA
+2025-04-17 18:47:01,946 - leadfinder - ERROR - Error scraping Google Maps: Message: javascript error: Cannot read properties of null (reading 'scrollHeight')
+  (Session info: chrome=134.0.6998.118)
+Stacktrace:
+0   chromedriver                        0x000000010489b6c8 cxxbridge1$str$ptr + 2791212
+1   chromedriver                        0x0000000104893c9c cxxbridge1$str$ptr + 2759936
+2   chromedriver                        0x00000001043e5e30 cxxbridge1$string$len + 92928
+3   chromedriver                        0x00000001043ebc58 cxxbridge1$string$len + 117032
+4   chromedriver                        0x00000001043edf80 cxxbridge1$string$len + 126032
+5   chromedriver                        0x000000010446f3c4 cxxbridge1$string$len + 655508
+6   chromedriver                        0x000000010446e5f8 cxxbridge1$string$len + 651976
+7   chromedriver                        0x00000001044212fc cxxbridge1$string$len + 335820
+8   chromedriver                        0x00000001048606c4 cxxbridge1$str$ptr + 2549544
+9   chromedriver                        0x0000000104863988 cxxbridge1$str$ptr + 2562540
+10  chromedriver                        0x000000010484071c cxxbridge1$str$ptr + 2418560
+11  chromedriver                        0x00000001048641e8 cxxbridge1$str$ptr + 2564684
+12  chromedriver                        0x0000000104831750 cxxbridge1$str$ptr + 2357172
+13  chromedriver                        0x0000000104883f58 cxxbridge1$str$ptr + 2695100
+14  chromedriver                        0x00000001048840e0 cxxbridge1$str$ptr + 2695492
+15  chromedriver                        0x0000000104893910 cxxbridge1$str$ptr + 2759028
+16  libsystem_pthread.dylib             0x0000000199361c0c _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019935cb80 thread_start + 8
+

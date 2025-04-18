@@ -151,4 +151,4 @@ Web scraping should be performed responsibly and ethically. This tool includes r
 
 ---
 
-Created by [Your Name] - [GitHub Profile Link]
+Created by Cyrus Kakkar 
